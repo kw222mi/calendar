@@ -31,17 +31,31 @@ html, body {
 
 .calendar-container{
     display: grid;
-}
-
-.days-container {
-
-}
-
-.v1 {
+    grid: auto-flow 50px 100px 100px 100px 100px 100px/1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
 
 }
+.day {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+        align-items: center;
+        border-right: 1px white solid;
+}
 
-.v2 {}
-.v3 {}
-.v4 {}
-.v5 {}
+.date {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px lightgray solid;
+        height: 100%;
+        font-size: 30px;
+        font-style: bold;
+}
+
+
