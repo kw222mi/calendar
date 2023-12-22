@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-div {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 100px;
+    align-items: center;
+}
+
+.month {
+    font-weight: 600;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.year {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Calendar*/
+
+.calendar-container{
+    display: grid;
+}
+
+.days-container {
+
+}
+
+.v1 {
+
+}
+
+.v2 {}
+.v3 {}
+.v4 {}
+.v5 {}
